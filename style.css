@@ -39,6 +39,43 @@ nav ul a:hover{
     color: white;
 }
 
+.heading{
+    margin-left: 150px;
+    padding: 10px;
+}
+h1{
+    font-weight: 900px;
+    color: white;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: rgb(230, 72, 72);
+    color: white;
+    border: none;
+}
+
+i{
+    margin-left: 10px;
+}
+
+.head-banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.head-banner img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.head-banner img:hover{
+    transform: scale(1.05);
+}
+
 /* header style ends */
 
 
