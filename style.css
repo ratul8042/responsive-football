@@ -119,3 +119,53 @@ i{
 }
 
 /* main section css ends */
+
+/* footer style starts */
+
+footer{
+    background-color: black;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: white;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+
+}
+
+.footer-logo img{
+    height: 85px;
+}
+
+
+.footer-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.footer-social img{
+    height: 30px;
+    padding: 0 5px;
+}
+
+.footer-bottom{
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    text-transform: capitalize;
+    word-spacing: 2px;
+}
+
+/* footer style ends */
