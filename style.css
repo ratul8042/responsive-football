@@ -1,0 +1,39 @@
+/* universal selector */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header style */
+
+header{
+    background-color: blue;
+ }
+
+nav{
+    display: grid;
+    place-items: center;
+}
+
+nav ul{
+    list-style-type: none;
+
+}
+
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    transition: .2s ease-in;
+    font-size: 18px;
+
+}
+
+nav ul a:hover{
+    background-color: rgb(130, 106, 236);
+    color: white;
+}
