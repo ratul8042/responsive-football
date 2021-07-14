@@ -119,14 +119,47 @@ i{
 
 }
 
+h2{
+    margin-left: 120px;
+}
+
+.fixture{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px 120px;
+    margin-bottom: 70px;
+    grid-gap: 30px;
+}
+
+.fixture img{
+    height: 15px;
+    padding: 0 5px;
+}
+
+.schedule h4 p{
+    text-align: right;
+}
+
 @media screen and (max-width:1000px){
-    .items{
+    .items {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width:768px){
     .items{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:1000px){
+    .fixture {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:768px){
+    .fixture {
         grid-template-columns: repeat(1, 1fr);
     }
 }
